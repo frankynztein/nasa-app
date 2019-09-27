@@ -6,7 +6,6 @@ body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
   height: 100vh;
-
 }
 
 @media (min-width: 320px) {
@@ -15,10 +14,6 @@ body {
     grid-template-columns: 100%;
     grid-template-rows: 237px 1fr;
     padding: 5px;
-    justify-content: center;
-    align-content: center;
-    /* justify-items: center; */
-    /* align-items: center; */
   }
 
   .nasa-img {
@@ -26,15 +21,11 @@ body {
   }
 
   .img-info {
-    /* border: 1px solid white; */
     padding: 7px;
   }
 
   .title {
-    /* border: 1px solid white; */
-
     font-size: 2em;
-    /* align-self: center; */
     text-align: center;
     font-weight: bold;
     letter-spacing: 1.5px;
@@ -43,21 +34,17 @@ body {
   }
 
   .copyright {
-    /* border: 1px solid white; */
     text-align: center;
     font-family: 'Lato', sans-serif;
     letter-spacing: 1px;
     font-size: 1em;
     font-weight: 500;
-
   }
 
   .explanation {
-    /* border: 1px solid white; */
     font-family: 'Lato', sans-serif;
     letter-spacing: 1px;
     text-align: justify;
-
   }
 
 }

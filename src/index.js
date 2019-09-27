@@ -1,4 +1,3 @@
-
 const KEY = config.NASA_KEY;
 const container = document.querySelector('.container-grid');
 const nasaImg = document.querySelector('.nasa-img');

@@ -26,6 +26,7 @@ async function nasaImage() {
   // renderImageInfo(data.title, data.copyright, data.explanation)
 
   const showData = `
+  <header class="header">NASA's picture of the day</header>
   <section class="img">
     <img class="nasa-img" src="${data.url}" alt="" />
   </section>
@@ -37,10 +38,10 @@ async function nasaImage() {
   container.innerHTML = showData;
 }
 
+nasaImage()
 
 
-searchBtn.addEventListener('click', () => {
-  nasaImage()
+// searchBtn.addEventListener('click', () => {
   
   // fetch(API_URL)
   // .then(response => response.json())
@@ -49,4 +50,4 @@ searchBtn.addEventListener('click', () => {
   //   return data;
   // })
   // console.log(data)
-});
+// });

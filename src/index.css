@@ -12,8 +12,17 @@ body {
   .container-grid {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 237px 1fr;
+    grid-template-rows: 50px 237px 1fr;
     padding: 5px;
+  }
+
+  .header {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 5px;
+    font-weight: 100;
   }
 
   .nasa-img {
@@ -35,7 +44,7 @@ body {
     text-align: center;
     font-family: 'Lato', sans-serif;
     letter-spacing: 1px;
-    font-size: 1em;
+    font-size: 1.3em;
     font-weight: 500;
   }
 
